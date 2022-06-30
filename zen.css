@@ -8,7 +8,7 @@ body{
     background-size: cover;
     position: inherit;
     background-attachment: fixed;
-    /* animation: backgroundColor 40s linear infinite; */
+    /* animation: backgroundColor 40s linear infinite;  */
   }
   
   /* RAIN AND COLOR ANIMATION */
@@ -71,12 +71,22 @@ body{
     padding: 3rem 8rem 3rem 3rem;
     max-width: 20rem;
     margin-top: 3.5rem;
+    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85); 
+    background: rgba( 245, 166, 35, 0.4 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
     border-radius: 1.5rem;
-    background-color: rgba(34, 255, 0, 0.173);
-    backdrop-filter: blur(15px);
-    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
+  /* https://giphy.com/stickers/hypercrafty-vine-plant-vines-kGoHlQYNpcajp3Zsx3 (vine GIF)*/
+  .wrapper {
+    background-image: url(giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
   #zen-supporting {
     margin: 2rem 0 0;
     order: 2;
@@ -105,37 +115,45 @@ body{
   .explanation {
     margin: 2rem 0 0;
     padding: 1.25rem 2rem 1.25rem;
+    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85); 
+    background: rgba( 0, 255, 0, 0.4 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
     border-radius: 1.5rem;
-    background-color: rgba(34, 255, 0, 0.173);
-    backdrop-filter: blur(15px);
-    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   .participation {
     margin: 2rem 0 0;
     padding: 1.25rem 2rem 1.25rem;
+    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85); 
+    background: rgba( 0, 255, 0, 0.4 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
     border-radius: 1.5rem;
-    background-color: rgba(34, 255, 0, 0.173);
-    backdrop-filter: blur(15px);
-    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   .benefits {
     margin: 2rem 0 0;
     padding: 1.25rem 2rem 1.25rem;
+    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85); 
+    background: rgba( 0, 255, 0, 0.4 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
     border-radius: 1.5rem;
-    background-color: rgba(34, 255, 0, 0.173);
-    backdrop-filter: blur(15px);
-    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   .requirements {
     margin: 2rem 0 0;
     padding: 1.25rem 2rem 1.25rem;
+    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85); 
+    background: rgba( 0, 255, 0, 0.4 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
     border-radius: 1.5rem;
-    background-color: rgba(34, 255, 0, 0.173);
-    backdrop-filter: blur(15px);
-    box-shadow: 13px 13px 20px -10px rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   footer {
@@ -153,50 +171,10 @@ body{
     line-height: 1.5rem;
   }
   
-  /* Slide Show      https://www.w3.org/Style/Examples/007/slideshow.en.html  */
-  /* #zen-supporting {
-    height: 18em;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  #zen-supporting > * {
-    position: relative;
-    top: 100%;
-    left: 0;
-    animation: 12s autoplay2 infinite ease-in-out;
-  }
-  
-  @keyframes autoplay2 {
-    0% {
-      top: 100%;
-    }
-    4% {
-      top: 0%;
-    }
-    33.33% {
-      top: 0%;
-    }
-    37.33% {
-      top: -100%;
-    }
-    100% {
-      top: -100%;
-    }
-  }
-  
-  #zen-supporting > *:nth-child(1) {
-    animation-delay: 0s;
-  }
-  #zen-supporting > *:nth-child(2) {
-    animation-delay: 4s;
-  }
-  #zen-supporting > *:nth-child(3) {
-    animation-delay: 8s;
-  } */
-  
 
   
+
+  /* MOBILE VIEW */
   @media screen and (max-width: 1080px) {
     .page-wrapper {
       background-attachment: fixed;
@@ -247,3 +225,47 @@ body{
     }
   }
   
+
+
+
+    /* Slide Show      https://www.w3.org/Style/Examples/007/slideshow.en.html  (METHOD 2)*/
+    #zen-supporting {
+      height: 18em;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    #zen-supporting > * {
+      position: relative;
+      top: 100%;
+      left: 0;
+      animation: 12s autoplay2 infinite ease-in-out;
+    }
+    
+    @keyframes autoplay2 {
+      0% {
+        top: 100%;
+      }
+      4% {
+        top: 0%;
+      }
+      33.33% {
+        top: 0%;
+      }
+      37.33% {
+        top: -100%;
+      }
+      100% {
+        top: -100%;
+      }
+    }
+    
+    #zen-supporting > *:nth-child(1) {
+      animation-delay: 0s;
+    }
+    #zen-supporting > *:nth-child(2) {
+      animation-delay: 4s;
+    }
+    #zen-supporting > *:nth-child(3) {
+      animation-delay: 8s;
+    }

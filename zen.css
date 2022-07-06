@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 .page-wrapper {
-    background-image: url(Temp\ background-img.jpg);
+    background-image: url(background-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

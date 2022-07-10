@@ -228,16 +228,24 @@ ul {
     padding: 0;
   }
 
-  /* #zen-supporting > * {
-    position: relative;
-    top: auto;
-    left: auto;
-    animation: none;
-  } */
+  #zen-supporting > * {
+    margin-top: 1em;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+  }
   #zen-supporting {
+    height: auto !important;
+    width: auto !important;
+    position: relative !important;
+    overflow: visible !important;
+  }
+
+  footer {
+    margin: 1rem 0 ;
+    padding: 1.25rem;
+    width: auto;
     height: auto;
-    position: absolute;
-    overflow: visible;
   }
 }
 

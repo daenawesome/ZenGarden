@@ -31,7 +31,7 @@ abbr {
 /*************************** Links on hover color ***************************/
 a {
     box-shadow: inset 0 0 0 0 #54b3d6;
-    color: #54b3d6;
+    color: #4089A3;
     margin: 0 -4px;
     padding: 0 4px;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -39,7 +39,7 @@ a {
     font-weight: 600;
   }
 a:hover {
-    box-shadow: inset 0px 0px 0px 10px #54b3d6;
+    box-shadow: inset 0px 0px 0px 10px #4089A3;
     color: white;
   }
 

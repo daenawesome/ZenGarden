@@ -14,3 +14,22 @@
     border-radius: 24px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+ul {
+    list-style-type: none;
+    line-height: 24px;
+}
+
+
+@keyframes spin {
+    0% {
+       transform: rotate(0deg);
+    }
+    100% {
+       transform: rotate(360deg);
+    }
+ }
+
+li:hover {
+    list-style-image: url("https://img.icons8.com/fluency/25/000000/flower.png"); 
+}

@@ -1,11 +1,11 @@
-.sidebar, .main, .intro {
+/* .sidebar, .main, .intro {
     animation: taadaa 6s ;
 }
 
 @keyframes taadaa { 
     0% {opacity: 0;}
     100% {opacity: 1;}
-}
+} */
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -16,7 +16,7 @@ body{
     background-size: cover;
     position: inherit;
     background-attachment: fixed;
-    animation: backgroundColor 40s linear infinite; 
+    /* animation: backgroundColor 40s linear infinite;  */
 }
 
 @keyframes backgroundColor {

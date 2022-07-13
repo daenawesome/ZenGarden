@@ -89,21 +89,11 @@
   }
   
   @keyframes autoplay2 {
-    0% { 
-      top: 100%;
-    }
-     2% { /*30s going up */
-        top: 0%;
-      } 
-     20% { /*55s stop */
-      top: 0%;
-    }
-     22% { /*5s go up up */
-      top: -100%;
-    }
-    100% {   /* stop */
-      top: -100%;
-    }
+      0% {top: 100%;}
+      2% { top: 0%;}      /*10s going up */
+     20% { top: 0%;}      /*55s stop */
+     22% { top: -100%;}   /*5s go up up */
+    100% {   top: -100%;} /* stop */
   }
   /* EXPLAIN */
  #zen-supporting > *:nth-child(1) {
@@ -149,18 +139,6 @@ footer {
     height: 80px;
 }
 
-footer a {
-    color: #EFEFEF;
-}
-
-ul {
-    list-style-type: none;
-    line-height: 24px;
-}
-li:hover {
-    list-style-image: url("https://img.icons8.com/fluency/25/000000/flower.png"); 
-}
-  
 /*************************** Footer ICONS ***************************/
 footer a {
     height: 50px;
@@ -168,6 +146,7 @@ footer a {
     text-indent: 200%;
     overflow: hidden;
     padding: 10px;
+    color: #EFEFEF;
 }
 
 .zen-validate-html {

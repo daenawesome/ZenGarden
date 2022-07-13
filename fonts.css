@@ -25,7 +25,7 @@ abbr {
 }
 
 .summary a {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /*************************** Links on hover color ***************************/
@@ -36,6 +36,7 @@ a {
     padding: 0 4px;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     border-radius: 5px;
+    font-weight: 600;
   }
 a:hover {
     box-shadow: inset 0px 0px 0px 10px #54b3d6;

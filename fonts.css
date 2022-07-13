@@ -24,10 +24,6 @@ abbr {
     line-height: 24px;
 }
 
-.summary a {
-    text-transform: capitalize;
-}
-
 /*************************** Links on hover color ***************************/
 a {
     box-shadow: inset 0 0 0 0 #4089A3;

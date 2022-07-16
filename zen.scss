@@ -350,6 +350,7 @@ footer a {
   .extra4 {
         max-width: 100px;
         max-height: 100px;
+        
   }
 
 
@@ -381,6 +382,24 @@ abbr {
 .intro p {
     line-height: 24px;
 }
+
+@mixin mobile() {
+    padding-left: calc(10px - 1vw);
+    padding-right: calc(10px - 1vw);
+
+}
+
+.intro p{
+    @include mobile();
+}
+
+#zen-supporting p {
+    @include mobile();
+}
+
+
+
+
 
 /*************************** Links on hover color ***************************/
 a {

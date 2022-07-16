@@ -74,7 +74,6 @@ body{
 
 .participation {
     @include cardContents();
-    font-weight: 600;
 }
 
 .participation a {
@@ -92,6 +91,7 @@ body{
 
 .requirements a {
     color: #EFEFEF;
+    font-weight: 600;
 }
 
 #zen-supporting {

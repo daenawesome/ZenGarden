@@ -70,14 +70,17 @@ body{
 
 .explanation a {
     color: #EFEFEF;
+    font-weight: 600;
 }
 
 .participation {
     @include cardContents();
+    font-weight: 600;
 }
 
 .participation a {
     color: #EFEFEF;
+    font-weight: 600;
 }
 
 .benefits {
